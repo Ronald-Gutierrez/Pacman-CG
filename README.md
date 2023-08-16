@@ -36,14 +36,18 @@ g++ -g --std=c++17 -I../include -L../lib ../src/*.cpp ../src/glad.c -lglfw3dll -
 ```
 ## Imagenes del Pacman
 Pacman es el protagonista principal y el personaje que el jugador controla. Es un cubo amarilla con una apariencia amigable. Su objetivo es moverse a través del laberinto para recolectar todas las monedas doradas mientras evita ser atrapado por los monstruos. Cuando Pacman consume una fruta, experimenta un crecimiento temporal durante 5 segundos, lo que le otorga la capacidad de devorar a los monstruos.
+
   <img src="https://github.com/Ronald-Gutierrez/Pacman-CG/blob/main/Img/pacman.jpeg" alt="Imagen 1" width="300" height="300" style="float: left; margin-right: 20px;">
 ## Imagenes del Fantasta y fruta
 Los monstruos son enemigos que persiguen a Pacman a medida que se mueve por el laberinto. Se mueven en líneas rectas en dirección vertical u horizontal, y su apariencia puede variar según tu diseño. Cuando Pacman es de tamaño normal, no puede tocar a los monstruos. Sin embargo, cuando Pacman consume una fruta y crece en tamaño, los roles se invierten, y los monstruos huirán de Pacman durante el período de crecimiento.
+
   <img src="https://github.com/Ronald-Gutierrez/Pacman-CG/blob/main/Img/monstro_fruta.jpg" alt="Imagen 1" width="300" height="300" style="float: left; margin-right: 20px;">
 
 ##Vistas del Juego
 El laberinto es el entorno en el que se desarrolla el juego. Está compuesto por pasillos, paredes y esquinas que Pacman debe navegar para recolectar todas las monedas doradas. El laberinto puede tener un diseño único y desafiante, con múltiples caminos y obstáculos para crear un juego emocionante. Los laberintos pueden variar en forma y tamaño a medida que los niveles avanzan, lo que brinda diversidad y dificultad creciente al juego. Por lo que se han añadido diferentes vistas del personaje, para variar la jugabilidad.
+
 ### Vista Izquierda
+
   <img src="https://github.com/Ronald-Gutierrez/Pacman-CG/blob/main/Img/vista_izq.jpg" alt="Imagen 1" width="300" height="300" style="float: left; margin-right: 20px;">
   
 ### Vista Derecha
@@ -57,8 +61,8 @@ El laberinto es el entorno en el que se desarrolla el juego. Está compuesto por
 #### Mapa 1 y 2
 
 <div>
-  <img src="https://github.com/Ronald-Gutierrez/Pacman-3D/blob/main/img/Nivel01-map1.jpg" alt="Imagen 1" width="300" height="300" style="float: left; margin-right: 20px;">
-  <img src="https://github.com/Ronald-Gutierrez/Pacman-3D/blob/main/img/Nivel01-map2.jpg" alt="Imagen 2" width="300" height="300" style="float: left;">
+  <img src="https://github.com/Ronald-Gutierrez/Pacman-CG/blob/main/Img/map1.jpg" alt="Imagen 1" width="300" height="300" style="float: left; margin-right: 20px;">
+  <img src="https://github.com/Ronald-Gutierrez/Pacman-CG/blob/main/Img/map2.jpg" alt="Imagen 2" width="300" height="300" style="float: left;">
 </div>
 
 Disfruta del juego y desafía tus habilidades para completar los niveles y alcanzar la puntuación más alta.
