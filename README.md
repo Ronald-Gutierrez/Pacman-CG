@@ -34,6 +34,24 @@ g++ -g --std=c++17 -I../include -L../lib ../src/*.cpp ../src/glad.c -lglfw3dll -
 ```shell
 ./main
 ```
+## Imagenes del Pacman
+Pacman es el protagonista principal y el personaje que el jugador controla. Es un cubo amarilla con una apariencia amigable. Su objetivo es moverse a través del laberinto para recolectar todas las monedas doradas mientras evita ser atrapado por los monstruos. Cuando Pacman consume una fruta, experimenta un crecimiento temporal durante 5 segundos, lo que le otorga la capacidad de devorar a los monstruos.
+  <img src="https://github.com/Ronald-Gutierrez/Pacman-CG/blob/main/Img/pacman.jpeg" alt="Imagen 1" width="300" height="300" style="float: left; margin-right: 20px;">
+## Imagenes del Fantasta y fruta
+Los monstruos son enemigos que persiguen a Pacman a medida que se mueve por el laberinto. Se mueven en líneas rectas en dirección vertical u horizontal, y su apariencia puede variar según tu diseño. Cuando Pacman es de tamaño normal, no puede tocar a los monstruos. Sin embargo, cuando Pacman consume una fruta y crece en tamaño, los roles se invierten, y los monstruos huirán de Pacman durante el período de crecimiento.
+  <img src="https://github.com/Ronald-Gutierrez/Pacman-CG/blob/main/Img/monstro_fruta.jpg" alt="Imagen 1" width="300" height="300" style="float: left; margin-right: 20px;">
+
+##Vistas del Juego
+El laberinto es el entorno en el que se desarrolla el juego. Está compuesto por pasillos, paredes y esquinas que Pacman debe navegar para recolectar todas las monedas doradas. El laberinto puede tener un diseño único y desafiante, con múltiples caminos y obstáculos para crear un juego emocionante. Los laberintos pueden variar en forma y tamaño a medida que los niveles avanzan, lo que brinda diversidad y dificultad creciente al juego. Por lo que se han añadido diferentes vistas del personaje, para variar la jugabilidad.
+### Vista Izquierda
+  <img src="https://github.com/Ronald-Gutierrez/Pacman-CG/blob/main/Img/vista_izq.jpg" alt="Imagen 1" width="300" height="300" style="float: left; margin-right: 20px;">
+  
+### Vista Derecha
+  <img src="https://github.com/Ronald-Gutierrez/Pacman-CG/blob/main/Img/vista_der.jpg" alt="Imagen 1" width="300" height="300" style="float: left; margin-right: 20px;">
+
+### Vista Delantera y Trasera
+  <img src="https://github.com/Ronald-Gutierrez/Pacman-CG/blob/main/Img/vista_delante_atras.jpg" alt="Imagen 1" width="300" height="300" style="float: left; margin-right: 20px;">
+
 ## Imagenes del Mapa
 ### Nivel 01
 #### Mapa 1 y 2
@@ -44,5 +62,17 @@ g++ -g --std=c++17 -I../include -L../lib ../src/*.cpp ../src/glad.c -lglfw3dll -
 </div>
 
 Disfruta del juego y desafía tus habilidades para completar los niveles y alcanzar la puntuación más alta.
-## Contribuciones
+### 🔩COLABORADORES🔩
+<a href="https://github.com/Ronald-Gutierrez">
+    <img src="https://avatars.githubusercontent.com/u/113565299?v=4" width="50px">
+</a>
+Gutierrez Arratia Ronald Romario
+<br>
+<a href="https://github.com/John-Sanchez-Chilo">
+    <img src="https://avatars.githubusercontent.com/u/82964968?v=4" width="50px">
+</a>
+Jhon Edson Sanchez Chilo
+<br>
+
 ¡Las contribuciones a este proyecto son bienvenidas! Si tienes alguna idea de mejora, corrección de errores o nuevas características, no dudes en hacer una solicitud de extracción o abrir un probl
+
